@@ -1,6 +1,8 @@
 # Shared Language
 **Gabryell Corrêa** | Author
+
 **[gabryellcorrea](https://github.com/gabryellcorrea)** | GitHub
+
 
 owltechnology.brasil@gmail.com | Contact Email
 
@@ -14,11 +16,13 @@ This is a JavaScript ([ES6](https://www.w3schools.com/js/js_es6.asp)) folder tha
 
 
 # Getting Started
-*// SharedTranslator = function(current_language = "en-US")*
-import **SharedTranslator** from "@**/shared-lang**";
 
-*// sharedLang = Object { ... }*
-const **sharedLang** = **SharedTranslator(current_language)**;
+    // SharedTranslator = function(current_language = "en-US")
+    import SharedTranslator from "@/shared-lang"; // @ = root of your project
+    
+    // sharedLang = Object { ... }
+    const sharedLang = SharedTranslator(current_language);
+
 
 # Usage
 sharedLang.*property*
