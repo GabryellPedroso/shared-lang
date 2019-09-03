@@ -36,6 +36,8 @@ const {
 
 - **email**,
 - **password**
+- **send**
+- **sign_up**
 
 } = sharedLang;
 
@@ -52,6 +54,18 @@ const {
 - **good_afternoon**,
 - **good_evening**,
 - **good_night**
+
+} = sharedLang;
+
+#
+
+**Validations:**
+*Used on input's validations or messages to the client*
+
+const {
+
+- **empty_email**,
+- **empty_password**
 
 } = sharedLang;
 
