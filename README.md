@@ -18,7 +18,7 @@ This is a JavaScript ([ES6](https://www.w3schools.com/js/js_es6.asp)) folder tha
 # Getting Started
 
     // SharedTranslator = function(current_language = "en-US")
-    import SharedTranslator from "@/shared-lang"; // @ = root of your project
+    import SharedTranslator from "@/shared-lang/shared"; // @ = root of your project
     
     // sharedLang = Object { ... }
     const sharedLang = SharedTranslator(current_language);
