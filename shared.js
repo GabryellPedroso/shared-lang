@@ -9,19 +9,7 @@
  * @update 02/09/2019 - 02/Set/2019 | 4:26 PM
  */
 
-import en from './en' // { ... }
-import pt from './pt' // { ... }
-import es from './es' // { ... }
+import Lang from '~/classes/lang.class'
 
-export default (language_preference = 'en-US') => {
-  let lang = language_preference.split('-') // ['en', 'US']
-      lang = lang[0] // en
-  
-  switch (lang) {
-    case 'en': return en // { ... }
-    case 'pt': return pt // { ... }
-    case 'es': return es // { ... }
-  
-    default: return en // { ... }
-  }
-}
+const sharedLang = new Lang()
+export default sharedLang

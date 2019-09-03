@@ -10,5 +10,7 @@
 
 export default {
   email: 'Email',
-  password: 'Wachtwoord'
+  password: 'Wachtwoord',
+  send: 'Sturen',
+  sign_up: 'Inschrijven'
 }

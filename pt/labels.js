@@ -10,5 +10,7 @@
 
 export default {
   email: 'Email',
-  password: 'Senha'
+  password: 'Senha',
+  send: 'Enviar',
+  sign_up: 'Registre-se'
 }
