@@ -9,8 +9,14 @@
  */
 
 const validations = {
-  empty_email: 'Por favor complete su correo electrónico',
-  empty_password: 'Por favor complete su contraseña'
+  // Empty
+  empty_email: 'Please fill out your email',
+  empty_password: 'Please fill out your password',
+
+  // Wrong
+  wrong_email: 'Incorrect Email. Please correct it and try again',
+  wrong_password: 'Incorrect password. Please correct it and try again.',
+  wrong_credentials: 'Incorrect credentials. Please correct it and try again.'
 };
 
 export default validations;

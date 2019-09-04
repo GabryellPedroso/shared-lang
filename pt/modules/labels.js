@@ -12,7 +12,8 @@ const labels = {
   email: 'Email',
   password: 'Senha',
   send: 'Enviar',
-  sign_up: 'Registre-se'
+  sign_up: 'Registre-se',
+  to_filter: 'Filtrar'
 };
 
 export default labels;
