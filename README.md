@@ -44,41 +44,51 @@ const sharedLang = new Translator('pt-BR', { en, es, nl, pt }); // your pt-BR ob
 
 # Modules
 
-## Labels:
-*Used in input labels*
-
-const {
-
-- **email**,
-- **password**
-- **send**
-- **sign_up**
-
-} = sharedLang;
-
 ## Greetings:
 *Used to make some nice phrases*
 
+```javascript
 const {
+  hi,
+  hello,
+  good_morning,
+  good_afternoon,
+  good_evening,
+  good_night
+} = sharedLang.greetings;
+```
 
-- **hi**,
-- **hello**,
-- **good_morning**,
-- **good_afternoon**,
-- **good_evening**,
-- **good_night**
+## Labels:
+*Used in input labels*
 
-} = sharedLang;
+```javascript
+const {
+  email,
+  password,
+  send,
+  sign_up
+} = sharedLang.labels;
+```
+
+## Placeholders
+*Used in input's placeholders*
+
+```javascript
+const {
+  email,
+  password
+} = sharedLang.placeholders;
+```
 
 ## Validations:
-*Used on input's validations or messages to the client*
+*Used in input's validations or messages to the client*
 
+```javascript
 const {
-
-- **empty_email**,
-- **empty_password**
-
-} = sharedLang;
+  empty_email,
+  empty_password
+} = sharedLang.validations;
+```
 
 # Available Languages
 - en-US (Default)
