@@ -1,9 +1,11 @@
-import greetings from './greetings' // { ... }
-import labels from './labels' // { ... }
-import validations from './validations' // { ... }
+import greetings from './modules/greetings'; // { ... }
+import labels from './modules/labels'; // { ... }
+import validations from './modules/validations'; // { ... }
 
-export default {
+const nl = {
   ...greetings,
   ...labels,
   ...validations
-}
+};
+
+export default nl;

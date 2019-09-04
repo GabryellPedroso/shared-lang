@@ -8,9 +8,11 @@
  * @update 03/09/2019 - 03/Set/2019 | 12:25 PM
  */
 
-export default {
+const labels = {
   email: 'Email',
   password: 'Senha',
   send: 'Enviar',
   sign_up: 'Registre-se'
-}
+};
+
+export default labels;

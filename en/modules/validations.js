@@ -8,7 +8,9 @@
  * @update 03/09/2019 - 03/Set/2019 | 4:22 PM
  */
 
-export default {
-  empty_email: 'Please fill out your email',
-  empty_password: 'Please fill out your password'
-}
+const validations = {
+  empty_email: 'Por favor complete su correo electrónico',
+  empty_password: 'Por favor complete su contraseña'
+};
+
+export default validations;
