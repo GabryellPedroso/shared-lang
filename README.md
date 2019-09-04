@@ -66,7 +66,8 @@ const {
   email,
   password,
   send,
-  sign_up
+  sign_up,
+  to_filter
 } = sharedLang.labels;
 ```
 
