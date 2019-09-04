@@ -86,7 +86,11 @@ const {
 ```javascript
 const {
   empty_email,
-  empty_password
+  empty_password,
+  
+  wrong_email,
+  wrong_password,
+  wrong_credentials
 } = sharedLang.validations;
 ```
 
