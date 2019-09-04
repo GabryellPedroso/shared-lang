@@ -66,7 +66,8 @@ const {
   email,
   password,
   send,
-  sign_up
+  sign_up,
+  to_filter
 } = sharedLang.labels;
 ```
 
@@ -86,7 +87,10 @@ const {
 ```javascript
 const {
   empty_email,
-  empty_password
+  empty_password,
+  wrong_email,
+  wrong_password,
+  wrong_credentials
 } = sharedLang.validations;
 ```
 
