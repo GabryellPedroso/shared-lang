@@ -11,45 +11,38 @@ This is a JavaScript ([ES6](https://www.w3schools.com/js/js_es6.asp)) folder tha
 # Summary
 
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Properties](#properties)
+- [Modules](#modules)
+- [Available Languages](#available-languages)
 
 
 # Getting Started
 
+Importing
 ```javascript
-/**
- * Importing Lang Class
- * 
- * @param { en: { ... }, es: { ... }, nl: { ... }, pt: { ... } } libraries
- *  You can pass your libraries if you want (Default is its own libraries)
- * 
- * @param { 'en-US' || 'pt-BR' || 'es' || 'nl' } language_preference
- *  Default is 'en-US'
- *
- * constructor(libraries = { en, es, nl, pt }, language_preference = 'en-US')
- */
-import Lang from "project_root_folder/shared-lang";
+import Translator from "your_project_root_folder/shared-lang";
 ```
 
+Using default library
+```javascript
+const sharedLang = new Translator(); // Default en-US object
+```
+
+Choosing language library
+```javascript
+const sharedLang = new Translator('pt-BR'); // Default pt-BR object
+```
+
+Using custom libraries
 ```javascript
 import en from 'your_own_en_file'; // { ... }
 import es from 'your_own_es_file'; // { ... }
 import nl from 'your_own_nl_file'; // { ... }
 import pt from 'your_own_pt_file'; // { ... }
 
-const sharedLang = new Lang({ en, es, nl, pt }, 'pt-BR');
-
-// or
-
-const sharedLang = new Lang(); // en-US Object { ... }
+const sharedLang = new Translator('pt-BR', { en, es, nl, pt }); // your pt-BR object
 ```
 
-
-# Usage
-sharedLang.*property*
-
-# Properties
+# Modules
 
 ## Labels:
 *Used in input labels*
@@ -62,8 +55,6 @@ const {
 - **sign_up**
 
 } = sharedLang;
-
-#
 
 ## Greetings:
 *Used to make some nice phrases*
@@ -78,8 +69,6 @@ const {
 - **good_night**
 
 } = sharedLang;
-
-#
 
 ## Validations:
 *Used on input's validations or messages to the client*
