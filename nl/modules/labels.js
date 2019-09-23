@@ -11,6 +11,16 @@
 const labels = {
   email: 'Email',
   password: 'Wachtwoord',
+  
+  profit: 'Winst',
+  language: 'Taal',
+  dashboard: 'Dashboard',
+  earnings: 'Verdiensten',
+  expenses: 'Uitgaven',
+  revenue: 'Omzet',
+  bars: 'Bars',
+  lines: 'Lijnen',
+
   send: 'Sturen',
   sign_up: 'Inschrijven',
   to_filter: 'Filtreren'

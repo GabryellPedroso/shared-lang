@@ -11,9 +11,19 @@
 const labels = {
   email: 'Email',
   password: 'Password',
+
+  profit: 'Profit',
+  language: 'Language',
+  dashboard: 'Dashboard',
+  earnings: 'Earnings',
+  expenses: 'Expenses',
+  revenue: 'Revenue',
+  bars: 'Bars',
+  lines: 'Lines',
+  
   send: 'Send',
+  to_filter: 'Filter',
   sign_up: 'Sign Up',
-  to_filter: 'Filter'
 };
 
 export default labels;

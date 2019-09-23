@@ -33,16 +33,16 @@ export default class Translator {
    */
   constructor(lang = 'en-US', libraries = undefined) {
 
-    lang = language_preference.split('-'); // ['en', 'US']
+    lang = lang.split('-'); // ['en', 'US']
     lang = lang[0]; // en
     
     switch (lang) {
-      case 'en': return libraries.en || en; // { ... }
-      case 'es': return libraries.es || es; // { ... }
-      case 'nl': return libraries.nl || nl; // { ... }
-      case 'pt': return libraries.pt || pt; // { ... }
+      case 'en': return libraries ? libraries.en : en; // { ... }
+      case 'es': return libraries ? libraries.es : es; // { ... }
+      case 'nl': return libraries ? libraries.nl : nl; // { ... }
+      case 'pt': return libraries ? libraries.pt : pt; // { ... }
     
-      default: return libraries.en || en; // { ... }
+      default: return libraries ? libraries.en : en; // { ... }
     }
   }
 }

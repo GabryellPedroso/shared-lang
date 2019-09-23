@@ -11,6 +11,16 @@
 const labels = {
   email: 'Email',
   password: 'Senha',
+  
+  profit: 'Lucro',
+  language: 'Idioma',
+  dashboard: 'Painel de Controle',
+  earnings: 'Ganhos',
+  expenses: 'Gastos',
+  revenue: 'Faturamento',
+  bars: 'Barras',
+  lines: 'Linhas',
+
   send: 'Enviar',
   sign_up: 'Registre-se',
   to_filter: 'Filtrar'
