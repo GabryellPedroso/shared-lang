@@ -1,10 +1,10 @@
 # Shared Language
 **Gabryell Corrêa** | Author
 
-**[gabryellcorrea](https://github.com/gabryellcorrea "Gabryell's GitHub")** | GitHub
+**[theSpiderDev](https://github.com/theSpiderDev "Gabryell's GitHub")** | GitHub
 
 
-owltechnology.brasil@gmail.com | Contact Email
+gabryellcorrea.dev@gmail.com | Contact Email
 
 This is a JavaScript ([ES6](https://www.w3schools.com/js/js_es6.asp)) folder that contains generic translations for your system.
 
@@ -102,4 +102,4 @@ const {
 
 #
 
-Made with love by @gabryellcorrea <3
+Made with love by @theSpiderDev <3
